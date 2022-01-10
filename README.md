@@ -1,4 +1,4 @@
-# Watch
+# Luxe
 A sample one page website for a luxury watch brand
 Users are shown a full page name of the brand initially.
 When scrolling down, the about section appears where users can read up about the brand.
