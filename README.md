@@ -5,3 +5,4 @@ When scrolling down, the about section appears where users can read up about the
 Next, the products section appears, there are three categories of watches which has been arranged in an animated environment for aesthetic purposes.
 A quote for decorative purposes.
 Footer.
+<br> Please view the webpage in a resolution of 1527x765px as display optimisation as not been added.
