@@ -1,0 +1,166 @@
+.top{
+    height: 96%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: top;
+    animation-duration: 2s;
+}
+#bg{
+ height: 96.5%;
+ width: 99%;
+ margin: -10px;
+ border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    animation-name: bg;
+    animation-duration: 2s;
+}
+@keyframes top{
+    0% {height:0%;}
+    100% { height: 96%}
+}
+@keyframes bg{
+    0% {height:0%;}
+    100% { height: 96.5%}
+}
+.mid{
+    height: 100%;
+    animation-name: mid;
+    animation-duration: 4s;
+    
+}
+@keyframes mid{
+    0% {opacity: 0%;}
+    50% {opacity: 0%;}
+    100%{opacity: 100%;}
+}
+.quo{
+    border: 3px solid silver;
+}
+.te{
+   
+    width: 90%;
+    text-align: center;
+    color: silver;
+    font-size: 35px;
+    font-family: 'Brush Script MT', cursive;
+    border: 3px double goldenrod;
+    padding: 15px;
+    margin: 4%;
+}
+.inf{
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align:center;
+    font-size: 30px;
+    color: silver;
+    margin-top: 20px;
+    font-family: Helvetica, sans-serif;
+}
+.pro{
+    height: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+
+}
+.bot{
+    height: 10%;
+    background-color: black;
+    padding: 100px;
+    border-radius: 10px;
+    margin-top: 1200px;
+}
+.z{
+ height: 96%;
+ width: 97%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    clip-path: polygon(0 0, 50% 0, 50% 50%, 0 100%);
+    transition: clip-path 2s, z-index 2s; 
+    z-index:0;
+    font-size: 30px;
+    color: silver;     
+}
+.z:hover{
+ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+ z-index:60;
+}
+.p{    height: 96%;
+ width: 97%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 50%);
+    transition: clip-path 2s, z-index 2s;   
+    z-index:0;
+    text-align: right;
+    color: Navy;  
+
+}
+.p:hover{
+ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+ z-index:60;
+}
+
+.h{    height: 96%;
+ width: 97%;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+       border-radius: 10px;
+    clip-path: polygon(50% 50%, 50% 50%, 100% 100%, 0 100%); 
+    transition: clip-path 2s, z-index 2s;  
+    z-index:0; 
+    text-align: center; font-size: 30px; color: goldenrod;
+}
+.h:hover{
+ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+ z-index:60;
+}
+.gear{
+    height: auto;
+    width: 50%;
+}
+#ze{
+    height: 90%;
+    width: auto;
+    padding-left: 563px;
+
+}
+#po{
+    height: 75%;
+    width: auto;
+    padding-right: 480px;
+    padding-top: 130px;
+
+}
+#ha{
+ height: 100%;
+    width: auto;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+h2{
+    position: absolute;
+}
+.zs{
+    padding-left: 400px;
+    padding-top: 200px;
+    font-size: 50px;
+}
+.pn{
+    padding-left: 950px;
+    padding-top: 200px;
+    font-size: 50px;
+}
+.hs{
+    padding-left: 650px;
+    padding-top: 650px;
+    font-size: 50px;
+}
